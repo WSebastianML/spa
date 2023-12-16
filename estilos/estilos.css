@@ -1,0 +1,256 @@
+*{
+    border: 1px solid transparent;
+}
+@font-face{
+    font-family: 'Romanesco';
+    src: url(../fuentes/Romanesco-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../fuentes/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../fuentes/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(../fuentes/Inter-SemiBold.ttf);
+}
+h1{
+    font-family: 'Inter-Bold';
+    font-size: 48px;
+}
+h2{
+    font-family: 'Inter-SemiBold';
+    font-size: 24px;
+}
+#menu-header{
+    background-color: #A3A656;
+    height: 70px;
+}
+#menu-header div{
+    display: inline-block;
+}
+#menu-header .navegacion ul{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.navegacion ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+#menu-header .navegacion a{
+    color: #000;
+}
+.navegacion a{
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter-Regular';
+    font-size: 14px;
+}
+#menu-header .navegacion a:hover{
+    color: #FFFF00;
+}
+.iconos{
+    float: right;
+    margin-top: 5px;
+    font-family: 'Inter-Regular';
+}
+.iconos div{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos p{
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 5px;  
+}
+.usuario p{
+    position: relative;
+    bottom: 15px;
+}
+.bandera{
+    position: relative;
+    bottom: 5px;
+}
+.bandera p{
+    position: relative;
+    bottom: 10px;
+}
+.flecha{
+    position: relative;
+    bottom: 15px;
+    margin-left: 5px;
+}
+#imagen-main{
+    height: 550px;
+    background-image: url("../images/main.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#imagen-main h1{
+    font-size: 76px;
+    font-family: "Romanesco";
+    font-weight: 100;
+}
+.contenedor-texto{
+    width: 420px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.contenedor-texto h1{
+    margin-bottom: 0;
+}
+#barra-busqueda{
+    background-color: #F2F6F6;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter-Regular';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#barra-busqueda input{
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+#servicios{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#servicios h2{
+    margin: 0;
+    height: 50px;
+    background-color: #A3A656;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0px 0px;
+}
+#servicios article{
+    width: 300px;
+}
+#servicios img{
+    width: 300px;
+}
+#servicios button{
+    background-color: #A3A656;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 35px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+#servicios button:hover{
+    background-color: #384001;
+    cursor: pointer;
+}
+#servicios article div{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+#servicios article span{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter-Bold';
+    font-size: 25px; 
+}
+
+
+#contenedor-suscripciones{
+    background-color: #F2F6F6;
+    text-align: center;
+}
+#suscripciones{
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#suscripciones .planes{
+    width: 25%;
+    height: 410px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.borde{
+    height: 200px;
+    width: 200px;
+    border: 8px solid #384001;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.borde img{
+    height: 108px;
+    width: 108px;
+    position: relative;
+    top: 35px;
+}
+.planes button{
+    background-color: #A3A656;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 35px;
+    padding: 15px 50px;
+    font-size: 12px;
+}
+.planes button:hover{
+    background-color: #384001;
+    cursor: pointer;
+}
+.planes ul{
+    width: 50%;
+    margin: 20px auto;
+}
+.planes ul li{
+    text-align: left;
+}
+
+footer{
+    height: 97px;
+    background-color: #384001;
+}
+footer .navegacion a{
+    color: #A3A656;
+}
+footer .navegacion a:hover{
+    color: #FFFF00;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer .navegacion ul{
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+footer .iconos{
+    position: relative;
+    top: 20px;
+}
+footer .iconos img{
+    height: 35px;
+    width: 35px;
+    margin: 0 10px;
+}
+footer .iconos p{
+    color: #A3A656;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 12px;
+}
+
+
